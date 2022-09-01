@@ -9,7 +9,7 @@ export const Navbar: FC = () => {
   const mappedNavLinks = (classname: string) => {
     return navLinks.map((nav, i) => (
       <li
-        className={`font-poppins font-normal text-[16px] text-white ${
+        className={`hover:underline font-poppins font-normal text-[16px] text-white ${
           i === navLinks.length - 1 ? 'mr-0' : classname
         }`}
         key={nav.id}
