@@ -11,3 +11,4 @@ export { Navbar } from './Navbar';
 export { Stats } from './Stats';
 export { Clients } from './Clients';
 export { Testimonials } from './Testimonials';
+export { FeatureCard } from './FeatureCard';
